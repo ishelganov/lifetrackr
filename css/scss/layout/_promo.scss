@@ -1,0 +1,57 @@
+
+.promo {
+  @include bg-image('promo-bg.jpg');
+  padding-top: 90px;
+
+
+  // Логотип сайта
+  .logotype {
+    margin-top: 72px;
+    margin-bottom: 64px;
+    color: #fff;
+    font: {
+      family: $font-family-logotype;
+      size: 30px;
+    }
+  }
+
+  // Главный заголовок
+  h1 {
+    margin-bottom: 9px;
+  }
+}
+
+//Слоган
+.tagline {
+  display: block;
+  color: #383838;
+  font: {
+    size: 14px;
+    weight: bold;
+  }
+}
+
+//Картинка "рука с телефоном"
+.promo__phone {
+  position: relative;
+  top: 3px;
+  margin-left: 3px;
+}
+
+// Обертка для ссылок на приложения
+.wrapper-links {
+  display: inline-block;
+  margin-top: 27px;
+}
+
+.apple__link {
+  @include sprite($apple-link);
+  display: inline-block;
+}
+
+// Ссылка на google play
+.google__link {
+  @include sprite($android-link);
+  display: inline-block;
+  margin-left: 4px;
+}

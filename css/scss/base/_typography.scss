@@ -1,0 +1,27 @@
+
+@font-face {
+  font-family: 'lato';
+  src: url('../fonts/Lato/lato-regular-webfont.woff2') format('woff2'),
+  url('../fonts/Lato/lato-regular-webfont.woff') format('woff'),
+  url('../fonts/Lato/lato-regular-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'lato-light';
+  src: url('../fonts/Lato/lato-light-webfont.woff2') format('woff2'),
+  url('../fonts/Lato/lato-light-webfont.woff') format('woff'),
+  url('../fonts/Lato/lato-light-webfont.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'open_sans_condensedbold';
+  src: url('../fonts/OpenSans-Condensed/opensans-condbold-webfont-webfont.woff2') format('woff2'),
+  url('../fonts/OpenSans-Condensed/opensans-condbold-webfont-webfont.woff') format('woff'),
+  url('../fonts/OpenSans-Condensed/opensans-condbold-webfont-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

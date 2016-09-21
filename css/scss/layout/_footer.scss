@@ -1,0 +1,61 @@
+
+.footer {
+  padding-top: 50px;
+  padding-bottom: 40px;
+  border-top: 1px solid #dededb;
+  background-color: $bg-base;
+}
+
+// Логотип в футере
+.logotype--footer {
+  margin-left: 12px;
+  color: #d6d6d6;
+  font: {
+    family: $font-family-logotype;
+    size: 32px;
+  }
+}
+
+// Меню
+.menu {
+  padding-left: 68px;
+  margin-top: 8px;
+  list-style-type: none;
+
+  &__item {
+    display: inline-block;
+    margin-right: 34px;
+    font-size: 20px;
+
+    a {
+      color: #989898;
+      font-size: 20px;
+      text-decoration: none;
+    }
+  }
+}
+
+// Обертка ссылок на соц сети
+.wrapper-feedback--footer {
+  margin-top: 4px;
+  margin-left: 8px;
+}
+
+.feedback__link-footer {
+  display: inline-block;
+
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
+// Ссылка на твиттер
+.feedback__link--twitter-transparent {
+  @include sprite($twitter-transparent);
+}
+
+// Ссылка на фейсбук
+.feedback__link--facebook-transparent {
+  @include sprite($facebook-transparent);
+  margin-left: 16px;
+}

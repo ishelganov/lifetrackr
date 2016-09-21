@@ -1,0 +1,30 @@
+
+@mixin clearfix {
+  &:after {
+    display: block;
+    content: '';
+    clear: both;
+  }
+}
+
+@mixin bg-image($image) {
+    background-image: url($image_dir + '#{$image}');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+// Рассчет сетки
+@mixin grid($number-col, $padding) {
+  @for $i from 1 through $number-col {
+    .col-#{$i} {
+      @extend %grid-padding;
+      width: ( ( 100/$number-col ) * $i )#{'%'};
+      padding-left: $padding;
+      padding-right: $padding;
+    }
+    .col-offset-#{$i} {
+      margin-left: ( ( 100/$number-col ) * $i )#{'%'};
+    }
+  }
+}

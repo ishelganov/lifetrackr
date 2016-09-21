@@ -1,0 +1,18 @@
+
+.container {
+  @include clearfix;
+  box-sizing: border-box;
+  width: $container-width;
+  padding-left: $container-padding;
+  padding-right: $container-padding;
+  margin: 0 auto;
+}
+
+.row {
+  @include clearfix;
+  margin-left: -$col-padding;
+  margin-right: -$col-padding;
+}
+
+// Grid arg - number of columns, padding
+@include grid($col-number, $col-padding);

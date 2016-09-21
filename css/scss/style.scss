@@ -1,0 +1,48 @@
+// ПЕРЕМЕННЫЕ
+@import "utils/variables";
+
+// Compass
+//@import "compass/utilities/sprites";
+//@import "./icons/*.png";
+// Координаты картинок в спрайте
+//@include all-icons-sprites;
+
+// МИКСИНЫ
+@import "utils/mixins";
+
+// ЗАПОЛНИТЕЛИ
+@import "utils/placeholders";
+
+// СПРАЙТЫ
+@import "utils/sprite";
+
+//ШРИФТЫ
+@import "base/typography";
+
+// Основные стили
+@import "base/base";
+
+// Сетка
+@import "layout/grid";
+
+
+/* БЛОКИ
+================================*/
+
+// Block Promo
+@import "layout/promo";
+
+//Block Features
+@import "layout/features";
+
+// Block Support
+@import "layout/support";
+
+// Block slider
+@import "layout/slider";
+
+// Block team
+@import "layout/team";
+
+// Block footer
+@import "layout/footer";

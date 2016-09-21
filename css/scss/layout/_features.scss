@@ -1,0 +1,56 @@
+
+.features {
+  padding-top: 55px;
+  padding-bottom: 95px;
+  background-color: $bg-base;
+
+  .row {
+    margin-top: 193px;
+  }
+
+  // Главный заголовок в блоке
+  h2 {
+    margin-bottom: 7px;
+  }
+
+  // Заголовки пунктов
+  h3 {
+    position: relative;
+    margin-bottom: 0;
+    text-align: center;
+
+    &:before {
+      position: absolute;
+      top: -121px;
+      left: 50%;
+      display: block;
+      content: '';
+    }
+  }
+}
+
+// Иконки
+.features__title--calendar:before,
+.features__title--clock:before {
+  margin-left: -52.5px;
+}
+
+.features__title--calendar:before {
+  @include sprite($calendar);
+}
+
+.features__title--clock:before {
+  @include sprite($clock);
+}
+
+.features__title--users:before {
+  @include sprite($users);
+  margin-left: -72.5px;
+}
+
+.features__text {
+  margin-top: -4px;
+  display: block;
+  line-height: 24px;
+  text-align: center;
+}

@@ -1,0 +1,41 @@
+//*************** ШРИФТЫ ***************
+$font-family-base: 'lato', sans-serif;
+$font-family-title: 'lato-light', sans-serif;
+$font-family-logotype: 'open_sans_condensedbold', sans-serif;
+
+
+//*************** РАЗМЕРЫ ***************
+// Основной размер
+$font-size-base: 16px;
+// Описание под заголовками
+$font-size-description: 18px;
+$font-size-h1: 32px;
+$font-size-h2: 36px;
+$font-size-h3: 24px;
+$font-size-h4: 18px;
+
+
+//*************** МЕЖСТРОЧНЫЙ ИНТЕРВАЛ ***************
+$line-height--h3: 48px;
+
+
+//*************** ЦВЕТА ***************
+$color-base: #707b82;
+$color-h2: #1b1b1b;
+$color-h3: #202d33;
+$color-h4: #1b1b1b;
+
+
+//*************** ФОН БЛОКОВ ***************
+$bg-base: #fafafa;
+
+
+//*************** СЕТКА ***************
+$container-width: 1170px;
+$container-padding: 15px;
+$col-number: 12;
+$col-padding: 15px;
+
+
+//*************** ПУТЬ ДО ИЗОБРАЖЕНИЙ ***************
+$image_dir: '../images/';

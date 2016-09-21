@@ -1,0 +1,37 @@
+
+.slider {
+  position: relative;
+  //@include bg-image('promo-bg.jpg');
+  //background-repeat: no-repeat;
+  //-webkit-background-size: cover;
+  //background-size: cover;
+
+  .wrapper-carousel {
+    position: relative;
+    width: 945px;
+    padding: 0;
+    margin: 0 auto;
+    background-color: #fff;
+
+
+
+  }
+
+  img {
+    position: relative;
+    top: -191px;
+  }
+}
+
+.owl-item {
+  div {
+    height: 320px;
+  }
+}
+
+//.block-right {
+//  display: inline-block;
+//  width: 10%;
+//  height: 50px;
+//  background-image: url(../../../images/slider-bg-right.jpg);
+//}

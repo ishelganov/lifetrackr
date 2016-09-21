@@ -1,0 +1,85 @@
+
+.team {
+  padding-top: 47px;
+  padding-bottom: 128px;
+  background-color: $bg-base;
+
+  .row {
+    padding-top: 77px;
+  }
+
+  h2 {
+    margin-bottom: 5px;
+  }
+}
+
+.teammate {
+  position: relative;
+  padding-left: 188px;
+
+  &:before {
+    position: absolute;
+    left: 0;
+    top: -31px;
+    display: block;
+    content: '';
+  }
+}
+
+// Фото команды
+.teammate--1:before {
+  @include sprite($team-matthew);
+}
+
+.teammate--2:before {
+  @include sprite($team-denise);
+}
+
+.teammate--3:before {
+  @include sprite($team-keith);
+}
+
+.name {
+  color: #202d33;
+  font-size: 21px;
+}
+
+.profession {
+  margin-top: 3px;
+  font-size: $font-size-base;
+}
+
+// Обертка ссылкам на соц сети
+.wrapper-feedback {
+  margin-left: -4px;
+}
+
+.feedback__link {
+  display: inline-block;
+  margin-top: 16px;
+  margin-right: 3px;
+
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
+// Ссылка на твиттер
+.feedback__link--twitter {
+  @include sprite($twitter);
+}
+
+// Ссылка на фейсбук
+.feedback__link--facebook {
+  @include sprite($facebook);
+}
+
+// Ссылка на дрибл
+.feedback__link--dribbble {
+  @include sprite($dribbble);
+}
+
+// Ссылка на гитхаб
+.feedback__link--github {
+  @include sprite($github);
+}

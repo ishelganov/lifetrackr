@@ -1,0 +1,88 @@
+
+.support {
+  padding-bottom: 63px;
+  background-color: $bg-base;
+
+  // Блок с фоном
+  &-background {
+    @include bg-image('support-bg.jpg');
+    height: 488px;
+  }
+
+  // Картинка 3 телефона
+  &__phones {
+    position: relative;
+    margin-left: 227px;
+    margin-top: -394px;
+  }
+
+  h2 {
+    margin-top: 79px;
+    margin-bottom: 7px;
+  }
+
+  .row {
+    margin-top: 38px;
+
+  }
+}
+
+// Список
+.support__list {
+  padding-left: 90px;
+  list-style-type: none;
+}
+
+// Конкретный пункт
+.support__item {
+  position: relative;
+  margin-bottom: 39px;
+
+  &:before {
+    position: absolute;
+    left: -88px;
+    top: -1px;
+    display: block;
+    content: '';
+  }
+}
+
+// Картинка будильник
+.support__item--time:before {
+  @include sprite($time);
+}
+
+// Картинка статистика
+.support__item--stats:before {
+  @include sprite($graph);
+}
+
+// Картинка поддержка
+.support__item--community:before {
+  @include sprite($support);
+}
+
+// Картинка сообщение
+.support__item--message:before {
+  @include sprite($message);
+}
+
+// Картинка друзья
+.support__item--friends:before {
+  @include sprite($friends);
+}
+
+// Картинка документация
+.support__item--documentation:before {
+  @include sprite($documentation);
+}
+
+// Заголовки пунктов
+.support__subtitle {
+  margin-bottom: 6px;
+}
+
+// Текст пунктов
+.support__text {
+  color: #999;
+}
