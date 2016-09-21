@@ -234,7 +234,8 @@ header {
   background: -webkit-linear-gradient(bottom, #414141, #000);
   background: linear-gradient(to top, #414141, #000);
   text-align: center;
-  z-index: 1; }
+  z-index: 1;
+}
 
 .menu {
   display: inline-block;
