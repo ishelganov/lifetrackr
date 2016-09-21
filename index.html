@@ -12,8 +12,20 @@
 </head>
 
 <body>
+
+  <header>
+    <div class="container">
+      <ul class="menu">
+        <li class="menu__item"><a href="#promo">Download</a></li>
+        <li class="menu__item"><a href="#tools">Tools</a></li>
+        <li class="menu__item"><a href="#support">Support</a></li>
+        <li class="menu__item"><a href="#team">Developers</a> </li>
+      </ul>
+    </div>
+  </header>
+
   <main>
-    <div class="promo">
+    <div class="promo" id="promo">
       <div class="container">
         <div class="row">
 
@@ -35,7 +47,7 @@
       </div>
     </div>
 
-    <div class="features">
+    <div class="features" id="tools">
       <div class="container">
         <h2>Useful Tools For Your Life</h2>
         <span class="description">Our platform is used for help people to reach their success day by day</span>
@@ -64,7 +76,7 @@
       <div class="support-background"></div>
       <div class="container">
         <img class="support__phones" src="images/phones.png" alt="phones">
-        <h2>Helping People To Get a Better Life</h2>
+        <h2  id="support">Helping People To Get a Better Life</h2>
         <span class="description">Every people is deserved to have a better living</span>
         <div class="row">
 
@@ -117,7 +129,7 @@
       </div>
     </div>
 
-    <div class="team">
+    <div class="team" id="team">
       <div class="container">
         <h2>Our Happy Teams</h2>
         <span class="description">Here is the people behind this great app</span>
@@ -171,10 +183,10 @@
 
         <div class="col-6 col-offset-1">
           <ul class="menu">
-            <li class="menu__item"><a href="#">Download</a></li>
-            <li class="menu__item"><a href="#">Support</a></li>
-            <li class="menu__item"><a href="#">Developers</a></li>
-            <li class="menu__item"><a href="#">Privacy</a> </li>
+            <li class="menu__item"><a href="#promo">Download</a></li>
+            <li class="menu__item"><a href="#tools">Tools</a></li>
+            <li class="menu__item"><a href="#support">Support</a></li>
+            <li class="menu__item"><a href="#team">Developers</a> </li>
           </ul>
         </div>
 
@@ -192,6 +204,7 @@
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <!-- Include js plugin -->
   <script src="js/owl-carousel/owl.carousel.js"></script>
+  <script src="js/scroll/scroll.js"></script>
   <script>
   $(function() {
 
