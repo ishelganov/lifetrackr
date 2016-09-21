@@ -1,10 +1,6 @@
 
 .slider {
   position: relative;
-  //@include bg-image('promo-bg.jpg');
-  //background-repeat: no-repeat;
-  //-webkit-background-size: cover;
-  //background-size: cover;
 
   .wrapper-carousel {
     position: relative;
@@ -12,13 +8,11 @@
     padding: 0;
     margin: 0 auto;
     background-color: #fff;
-
-
-
   }
 
   img {
     position: relative;
+    //width: 60%;
     top: -191px;
   }
 }

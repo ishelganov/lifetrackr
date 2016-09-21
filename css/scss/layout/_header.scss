@@ -1,5 +1,47 @@
 
 header {
-  background-color: $bg-base;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background: linear-gradient(to top, #414141, #000);
   text-align: center;
+  z-index: 1;
+}
+
+
+// Меню
+.menu {
+  @include clearfix;
+  display: inline-block;
+  padding-left: 68px;
+  margin-top: 8px;
+  list-style-type: none;
+
+  &__item {
+    float: left;
+    margin: 0 22px;
+
+    a {
+      color: #989898;
+      font-size: 20px;
+      text-decoration: none;
+    }
+  }
+}
+
+// Анимамация дял шапки
+
+.header--fixed {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.visible {
+  opacity: 1;
+  transition: opacity 1s;
 }

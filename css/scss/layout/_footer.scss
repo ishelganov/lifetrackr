@@ -16,24 +16,6 @@
   }
 }
 
-// Меню
-.menu {
-  padding-left: 68px;
-  margin-top: 8px;
-  list-style-type: none;
-
-  &__item {
-    display: inline-block;
-    margin-right: 34px;
-
-    a {
-      color: #989898;
-      font-size: 20px;
-      text-decoration: none;
-    }
-  }
-}
-
 // Обертка ссылок на соц сети
 .wrapper-feedback--footer {
   margin-top: 4px;
