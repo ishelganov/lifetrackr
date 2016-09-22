@@ -47,11 +47,13 @@ gulp.task('sass', wrapPipe(function(success, error) {
 gulp.task('sprite', function () {
     var spriteData = gulp.src('images/icons/*')
         .pipe(spritesmith({
-        imgName: 'images/sprite.png',
+        imgName: '../images/sprite.png',
         cssFormat: 'scss',
-        cssName: 'css/scss/utils/sprite.scss'
+        cssName: '_sprite.scss'
     }));
-    return spriteData.pipe(gulp.dest('./'));
+    // return spriteData.pipe(gulp.dest('./'));
+    spriteData.img.pipe(gulp.dest('images/'));
+    spriteData.css.pipe(gulp.dest('css/scss/utils/'));
 });
 
 gulp.task('watch', function(){

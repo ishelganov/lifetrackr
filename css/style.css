@@ -234,8 +234,7 @@ header {
   background: -webkit-linear-gradient(bottom, #414141, #000);
   background: linear-gradient(to top, #414141, #000);
   text-align: center;
-  z-index: 1;
-}
+  z-index: 1; }
 
 .menu {
   display: inline-block;
@@ -300,14 +299,14 @@ header {
   margin-top: 27px; }
 
 .apple__link {
-  background-image: url(../../../images/sprite.png);
+  background-image: url(../images/sprite.png);
   background-position: -168px -326px;
   width: 168px;
   height: 50px;
   display: inline-block; }
 
 .google__link {
-  background-image: url(../../../images/sprite.png);
+  background-image: url(../images/sprite.png);
   background-position: 0px -326px;
   width: 168px;
   height: 50px;
@@ -342,19 +341,19 @@ header {
   margin-left: -52.5px; }
 
 .features__title--calendar:before {
-  background-image: url(../../../images/sprite.png);
+  background-image: url(../images/sprite.png);
   background-position: -326px 0px;
   width: 105px;
   height: 105px; }
 
 .features__title--clock:before {
-  background-image: url(../../../images/sprite.png);
+  background-image: url(../images/sprite.png);
   background-position: -326px -105px;
   width: 105px;
   height: 105px; }
 
 .features__title--users:before {
-  background-image: url(../../../images/sprite.png);
+  background-image: url(../images/sprite.png);
   background-position: -163px -163px;
   width: 145px;
   height: 102px;
@@ -401,37 +400,37 @@ header {
     content: ''; }
 
 .support__item--time:before {
-  background-image: url(../../../images/sprite.png);
+  background-image: url(../images/sprite.png);
   background-position: -431px -270px;
   width: 67px;
   height: 67px; }
 
 .support__item--stats:before {
-  background-image: url(../../../images/sprite.png);
+  background-image: url(../images/sprite.png);
   background-position: -431px 0px;
   width: 68px;
   height: 68px; }
 
 .support__item--community:before {
-  background-image: url(../../../images/sprite.png);
+  background-image: url(../images/sprite.png);
   background-position: -431px -203px;
   width: 67px;
   height: 67px; }
 
 .support__item--message:before {
-  background-image: url(../../../images/sprite.png);
+  background-image: url(../images/sprite.png);
   background-position: -431px -68px;
   width: 68px;
   height: 68px; }
 
 .support__item--friends:before {
-  background-image: url(../../../images/sprite.png);
+  background-image: url(../images/sprite.png);
   background-position: -326px -210px;
   width: 68px;
   height: 68px; }
 
 .support__item--documentation:before {
-  background-image: url(../../../images/sprite.png);
+  background-image: url(../images/sprite.png);
   background-position: -431px -136px;
   width: 68px;
   height: 67px; }
@@ -477,19 +476,19 @@ header {
     content: ''; }
 
 .teammate--1:before {
-  background-image: url(../../../images/sprite.png);
+  background-image: url(../images/sprite.png);
   background-position: 0px 0px;
   width: 163px;
   height: 163px; }
 
 .teammate--2:before {
-  background-image: url(../../../images/sprite.png);
+  background-image: url(../images/sprite.png);
   background-position: -163px 0px;
   width: 163px;
   height: 163px; }
 
 .teammate--3:before {
-  background-image: url(../../../images/sprite.png);
+  background-image: url(../images/sprite.png);
   background-position: 0px -163px;
   width: 163px;
   height: 163px; }
@@ -513,25 +512,25 @@ header {
     opacity: 0.5; }
 
 .feedback__link--twitter {
-  background-image: url(../../../images/sprite.png);
+  background-image: url(../images/sprite.png);
   background-position: -366px -278px;
   width: 40px;
   height: 40px; }
 
 .feedback__link--facebook {
-  background-image: url(../../../images/sprite.png);
+  background-image: url(../images/sprite.png);
   background-position: -163px -265px;
   width: 39px;
   height: 40px; }
 
 .feedback__link--dribbble {
-  background-image: url(../../../images/sprite.png);
+  background-image: url(../images/sprite.png);
   background-position: -202px -265px;
   width: 39px;
   height: 40px; }
 
 .feedback__link--github {
-  background-image: url(../../../images/sprite.png);
+  background-image: url(../images/sprite.png);
   background-position: -326px -278px;
   width: 40px;
   height: 40px; }
@@ -558,13 +557,13 @@ header {
     opacity: 0.5; }
 
 .feedback__link--twitter-transparent {
-  background-image: url(../../../images/sprite.png);
+  background-image: url(../images/sprite.png);
   background-position: -431px -337px;
   width: 27px;
   height: 22px; }
 
 .feedback__link--facebook-transparent {
-  background-image: url(../../../images/sprite.png);
+  background-image: url(../images/sprite.png);
   background-position: -394px -210px;
   width: 13px;
   height: 26px;
